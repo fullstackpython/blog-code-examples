@@ -10,8 +10,8 @@ media = "https://raw.githubusercontent.com/mattmakai/fullstackpython.com/master/
 # change the "from_" number to your Twilio number and the "to" number
 # to the phone number you signed up for Twilio with, or upgrade your
 # account to send MMS to any phone number that MMS is available
-client.api.account.messages.create(to="+19732644152",
-                                   from_="+12023351278",
-                                   body="MMS via Python? Nice!",
-                                   media_url=media)
+client.messages.create(to="+19732644152",
+                       from_="+12023351278",
+                       body="MMS via Python? Nice!",
+                       media_url=media)
 

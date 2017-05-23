@@ -8,12 +8,16 @@ from bokeh.models.sources import ColumnDataSource
 from flask import Flask, render_template
 
 
-flask = Flask(__name__)
+app = Flask(__name__)
 
 
-@app.route("/<bars_count>/")
+@app.route("/<int:bars_count>/")
 def chart(bars_count):
-    return render_template("chart.html")
+    if bars_count <= 0:
+        bars_count = 1
+
+    return render_template("chart.html", bars_count=bars_count,
+                           the_div=None, the_script=None)
 
 
 def hover_tool(fields_dict={}):
@@ -78,3 +82,6 @@ def create_bar_chart(data, title, x_name, y_name, hover_tool=None,
     plot.xaxis.major_label_orientation = .785
     return plot
 
+
+if __name__ == "__main__":
+    app.run(debug=True)

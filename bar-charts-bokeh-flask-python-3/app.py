@@ -18,7 +18,7 @@ def chart(bars_count):
         bars_count = 1
 
     data = {"days": [], "bugs": [], "costs": []}
-    for i in range(1, bars_count+1):
+    for i in range(1, bars_count + 1):
         data['days'].append(i)
         data['bugs'].append(random.randint(1,100))
         data['costs'].append(random.uniform(1.00, 1000.00))
@@ -33,6 +33,7 @@ def chart(bars_count):
 
 
 def create_hover_tool():
+    """Generates the HTML for the Bokeh's hover data tool on our graph."""
     hover_html = """
       <div>
         <span class="hover-tooltip">$x</span>
@@ -41,7 +42,7 @@ def create_hover_tool():
         <span class="hover-tooltip">@bugs bugs</span>
       </div>
       <div>
-        <span class="hover-tooltip">$@cost{0.00}</span>
+        <span class="hover-tooltip">$@costs{0.00}</span>
       </div>
     """
     return HoverTool(tooltips=hover_html)
@@ -49,10 +50,9 @@ def create_hover_tool():
 
 def create_bar_chart(data, title, x_name, y_name, hover_tool=None,
                      width=1200, height=300):
-    """
-        Creates a bar chart plot with the exact styling for the centcom
-        dashboard. Pass in data as a dictionary, desired plot title,
-        name of x axis, y axis and the hover tool HTML.
+    """Creates a bar chart plot with the exact styling for the centcom
+       dashboard. Pass in data as a dictionary, desired plot title,
+       name of x axis, y axis and the hover tool HTML.
     """
     source = ColumnDataSource(data)
     xdr = FactorRange(factors=data[x_name])
@@ -77,21 +77,13 @@ def create_bar_chart(data, title, x_name, y_name, hover_tool=None,
     plot.add_layout(Grid(dimension=0, ticker=xaxis.ticker))
     plot.add_layout(Grid(dimension=1, ticker=yaxis.ticker))
     plot.toolbar.logo = None
-    plot.title.text_color = "white"
-    plot.background_fill_alpha = 0.05
-    plot.border_fill_alpha = 0
     plot.min_border_top = 0
-    plot.min_border_bottom = 0
     plot.xgrid.grid_line_color = None
     plot.ygrid.grid_line_color = "#999999"
-    plot.yaxis.axis_label_text_color = "white"
-    plot.yaxis.major_label_text_color = "white"
-    plot.yaxis.axis_label = None
+    plot.yaxis.axis_label = "Bugs found"
     plot.ygrid.grid_line_alpha = 0.1
-    plot.xaxis.axis_label_text_color = "white"
-    plot.xaxis.major_label_text_color = "white"
-    plot.xaxis.axis_label = None
-    plot.xaxis.major_label_orientation = .785
+    plot.xaxis.axis_label = "Days after app deployment"
+    plot.xaxis.major_label_orientation = 1
     return plot
 
 

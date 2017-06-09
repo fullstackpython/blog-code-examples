@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block title %}{{ SITENAME }}{% endblock %}
+
+{% block content %}
+<div class="row">
+ <div class="col-md-8">
+  <h1>{{ SITENAME }}</h1>
+  {% for article in articles %}
+   <h2><a href="/{{ article.slug }}.html">{{ article.title }}</a></h2>
+   <label>Posted on <strong>{{ article.date }}</strong></label>
+   {{ article.content|truncate(110) }}
+  {% else %}
+   No posts yet!
+  {% endfor %}
+ </div>
+</div>
+{% endblock %}

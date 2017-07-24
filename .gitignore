@@ -89,3 +89,5 @@ ENV/
 .ropeproject
 
 *.swp
+
+monitor-flask-apps/.env

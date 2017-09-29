@@ -91,3 +91,4 @@ ENV/
 *.swp
 
 monitor-flask-apps/.env
+monitor-python-bottle-apps/.env

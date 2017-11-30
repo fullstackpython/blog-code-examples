@@ -14,7 +14,6 @@ def print_commit(commit):
     print(str(commit.authored_datetime))
     print(str("count: {} and size: {}".format(commit.count(),
                                               commit.size)))
-    print(str(commit.size))
 
 
 def print_repository(repo):

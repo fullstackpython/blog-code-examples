@@ -17,7 +17,6 @@ def print_commit(commit):
 
 
 def print_repository(repo):
-    print('Repo active branch is {}'.format(repo.active_branch))
     print('Repo description: {}'.format(repo.description))
     print('Repo active branch is {}'.format(repo.active_branch))
     for remote in repo.remotes:

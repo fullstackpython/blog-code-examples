@@ -12,7 +12,7 @@ Posts and associated code:
 |[DevOps, Continuous Delivery... and You](https://www.fullstackpython.com/blog/devops-continuous-delivery-you.html)|No code in post.|
 |[PyDev of the Week, Django 2.0 and Twilio Voices](https://www.fullstackpython.com/blog/pydev-week-django-2-twilio-voices.html)|No code in post.|
 |[PyCon US 2018 CFP, Python Bytes and Pelican](https://www.fullstackpython.com/blog/pycon-us-2018-cfp-python-bytes-pelican.html)|No code in post.|
-|[How to Monitor Python Web Applications](https://www.fullstackpython.com/blog/blog/monitor-python-web-applications.html)|[monitor-python-bottle-apps](https://github.com/fullstackpython/blog-code-examples/tree/master/monitor-python-bottle-apps)|
+|[How to Monitor Python Web Applications](https://www.fullstackpython.com/blog/monitor-python-web-applications.html)|[monitor-python-bottle-apps](https://github.com/fullstackpython/blog-code-examples/tree/master/monitor-python-bottle-apps)|
 |[How to Provision Ubuntu 16.04 Linux Servers on Linode](https://www.fullstackpython.com/blog/provision-ubuntu-linux-servers-linode.html)|No code in post.|
 |[Creating Bar Chart Visuals with Bokeh, Bottle and Python 3](https://www.fullstackpython.com/blog/python-bottle-bokeh-bar-charts.html)|[bar-charts-bokeh-bottle-python-3](https://github.com/fullstackpython/blog-code-examples/tree/master/bar-charts-bokeh-bottle-python-3)|
 |[How to Add Hosted Monitoring to Flask Web Applications](https://www.fullstackpython.com/blog/hosted-monitoring-flask-web-apps.html)|[monitor-flask-apps](https://github.com/fullstackpython/blog-code-examples/tree/master/monitor-flask-apps)|

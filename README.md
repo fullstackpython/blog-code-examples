@@ -7,7 +7,9 @@ Posts and associated code:
 
 |Post|Code Directory|
 |---|---|
-|[First Steps with GitPython](https://www.fullstackpython.com/blog/first-steps-gitpython.html)|[first-steps-gitpython](https://github.com/fullstackpython/blog-code-examples/tree/master/first-steps-gitpython)|
+|[Monitoring Django Projects with Rollbar](https://www.fullstackpython.com/blog/monitor-django-projects-web-apps-rollbar.html)|[monitor-django-apps](./monitor-django-apps)|
+|[Developing Flask Apps in Docker Containers on macOS](https://www.fullstackpython.com/blog/develop-flask-web-apps-docker-containers-macos.html)|[docker-flask-mac](./docker-flask-mac)|
+|[First Steps with GitPython](https://www.fullstackpython.com/blog/first-steps-gitpython.html)|[first-steps-gitpython](./first-steps-gitpython)|
 |[DevOps, Thank You Maintainers and Contributing to Open Source](https://www.fullstackpython.com/blog/devops-python-maintaining-contributing-open-source.html)|No code in post.|
 |[DevOps, Continuous Delivery... and You](https://www.fullstackpython.com/blog/devops-continuous-delivery-you.html)|No code in post.|
 |[PyDev of the Week, Django 2.0 and Twilio Voices](https://www.fullstackpython.com/blog/pydev-week-django-2-twilio-voices.html)|No code in post.|

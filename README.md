@@ -7,6 +7,7 @@ Posts and associated code:
 
 |Post|Code Directory|
 |---|---|
+|[Monitoring Django Projects with Rollbar](https://www.fullstackpython.com/blog/monitor-django-projects-web-apps-rollbar.html)|[monitor-django-apps](./monitor-django-apps)|
 |[Developing Flask Apps in Docker Containers on macOS](https://www.fullstackpython.com/blog/develop-flask-web-apps-docker-containers-macos.html)|[docker-flask-mac](./docker-flask-mac)|
 |[First Steps with GitPython](https://www.fullstackpython.com/blog/first-steps-gitpython.html)|[first-steps-gitpython](./first-steps-gitpython)|
 |[DevOps, Thank You Maintainers and Contributing to Open Source](https://www.fullstackpython.com/blog/devops-python-maintaining-contributing-open-source.html)|No code in post.|

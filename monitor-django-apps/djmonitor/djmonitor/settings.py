@@ -48,6 +48,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'rollbar.contrib.django.middleware.RollbarNotifierMiddleware',
 ]
 
 ROOT_URLCONF = 'djmonitor.urls'
@@ -119,3 +120,12 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 
 STATIC_URL = '/static/'
+
+ROLLBAR = {
+    'access_token': 'ea51d440d83f43d296e6c1dd13a44dc8',
+    'environment': 'development' if DEBUG else 'production',
+    'branch': 'master',
+    'root': '/Users/matt/devel/py/blog-code-examples/monitor-django-apps/djmonitor',
+	'patch_debugview': False,
+}
+

@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Visualize the logs of your Git repositories.">
+  <meta name="author" content="Matt Makai">
+  <title>Flask Map Example</title>
+  <script src='https://api.mapbox.com/mapbox-gl-js/v0.44.2/mapbox-gl.js'></script>
+  <link href='https://api.mapbox.com/mapbox-gl-js/v0.44.2/mapbox-gl.css' rel='stylesheet' />
+ </head>
+ <body>
+  <h1>Mapping in a Flask App</h1>
+  <div id='map' width="100%" style='height: 500px;'></div>
+  <script>
+   mapboxgl.accessToken = 'your access token';
+   var map = new mapboxgl.Map({
+   container: 'map',
+   style: 'mapbox://styles/mapbox/streets-v10'
+   });
+  </script>
+ </body>
+</html>

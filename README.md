@@ -7,8 +7,8 @@ Posts and associated code:
 
 |Post|Code Directory|
 |---|---|
-|How to Add Map Visualizations to Flask Web Apps with Mapbox|[maps-flask-mapbox](./maps-flask-mapbox)|
-|Monitoring Python 3.6 Code on AWS Lambda|[monitor-aws-lambda-python-3-6](./monitor-aws-lambda-python-3-6)|
+|How to Visualize Maps in Django Web Apps with MapBox|[maps-django-mapbox](./maps-django-mapbox)|
+|[Monitoring Python 3.6 Code on AWS Lambda](https://www.fullstackpython.com/blog/monitor-python-3-6-example-code-aws-lambda-rollbar.html)|[monitor-aws-lambda-python-3-6](./monitor-aws-lambda-python-3-6)|
 |[Developing Flask Apps in Docker Containers on macOS](https://www.fullstackpython.com/blog/develop-flask-web-apps-docker-containers-macos.html)|[docker-flask-mac](./docker-flask-mac)|
 |[Monitoring Django Projects with Rollbar](https://www.fullstackpython.com/blog/monitor-django-projects-web-apps-rollbar.html)|[monitor-django-apps](./monitor-django-apps)|
 |[First Steps with GitPython](https://www.fullstackpython.com/blog/first-steps-gitpython.html)|[first-steps-gitpython](./first-steps-gitpython)|

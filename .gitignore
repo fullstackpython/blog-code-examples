@@ -93,3 +93,4 @@ ENV/
 monitor-flask-apps/.env
 monitor-python-bottle-apps/.env
 monitor-django-apps/djmonitor/db.sqlite3
+*/*/db.sqlite3

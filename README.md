@@ -7,6 +7,7 @@ Posts and associated code:
 
 |Post|Code Directory|
 |---|---|
+|[How to Add User Authentication to Flask Apps with Okta](https://www.fullstackpython.com/blog/add-user-authentication-flask-apps-okta.html)|[flask-auth-okta](./flask-auth-okta)|
 |[Running Bottle Apps in Docker Containers on macOS](https://www.fullstackpython.com/blog/first-steps-bottle-web-apps-docker-containers.html)|[docker-bottle-mac](./docker-bottle-mac)|
 |[How to Add Maps to Django Web App Projects with Mapbox](https://www.fullstackpython.com/blog/maps-django-web-applications-projects-mapbox.html)|[maps-django-mapbox](./maps-django-mapbox)|
 |[Full Stack Python at PyCon US 2018](https://www.fullstackpython.com/blog/full-stack-python-pycon-us-2018.html)|No code in post.|

@@ -5,7 +5,7 @@ from flask import Flask, Response
 app = Flask(__name__)
 app.config["DEBUG"] = True
 # secret credentials for Okta connection
-app.config["OIDC_CLIENT_SECRETS"] = "client_secrets.json"
+app.config["OIDC_CLIENT_SECRETS"] = "openidconnect_secrets.json"
 app.config["OIDC_COOKIE_SECURE"] = False
 app.config["OIDC_CALLBACK_ROUTE"] = "/oidc/callback"
 app.config["OIDC_SCOPES"] = ["openid", "email", "profile"]

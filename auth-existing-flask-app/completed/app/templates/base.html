@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Visualize the logs of your Git repositories.">
+  <meta name="author" content="Matt Makai">
+  <title>Git Repository Visualizer (Flask edition)</title>
+  <link href="/static/css/bootstrap.css" rel="stylesheet">
+  <link href="/static/css/dashboard.css" rel="stylesheet">
+ </head>
+
+ <body>
+  {% include "nav.html" %}
+  <div class="container-fluid">
+   <div class="row">
+    {% include "sidenav.html" %}
+    {% block content %}{% endblock %}
+   </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="/static/js/popper.min.js"></script>
+  <script src="/static/js/bootstrap.min.js"></script>
+
+  <!-- Icons -->
+  <script src="https://unpkg.com/feather-icons/dist/feather.min.js"></script>
+  <script>
+    feather.replace()
+  </script>
+
+  {% block js %}{% endblock js %}
+ </body>
+</html>

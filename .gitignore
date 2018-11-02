@@ -98,3 +98,4 @@ monitor-django-apps/djmonitor/db.sqlite3
 # Flask auth Okta post
 flask-auth-okta/openidconnect_secrets.json
 flask-auth-okta/.env
+auth-existing-flask-app/completed/openidconnect_secrets.json

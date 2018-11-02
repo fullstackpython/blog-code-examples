@@ -7,6 +7,8 @@ Posts and associated code:
 
 |Post|Code Directory|
 |---|---|
+|[Fresh Tutorials on Full Stack Python](https://www.fullstackpython.com/blog/fresh-tutorials-october-2018.html)|No code in post.|
+|[How to Provision Ubuntu 18.04 LTS Linux Servers on DigitalOcean](https://www.fullstackpython.com/blog/provision-ubuntu-1804-linux-servers-digitalocean.html)|No code in post.|
 |[How to Add User Authentication to Flask Apps with Okta](https://www.fullstackpython.com/blog/add-user-authentication-flask-apps-okta.html)|[flask-auth-okta](./flask-auth-okta)|
 |[Running Bottle Apps in Docker Containers on macOS](https://www.fullstackpython.com/blog/first-steps-bottle-web-apps-docker-containers.html)|[docker-bottle-mac](./docker-bottle-mac)|
 |[How to Add Maps to Django Web App Projects with Mapbox](https://www.fullstackpython.com/blog/maps-django-web-applications-projects-mapbox.html)|[maps-django-mapbox](./maps-django-mapbox)|

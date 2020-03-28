@@ -7,7 +7,6 @@ Posts and associated code:
 
 |Post|Code Directory|
 |---|---|
-|Tracking Flask Application Deployment Versions in Rollbar with Ansible|[ansible-rollbar-flask](./ansible-rollbar-flask)|
 |[Adding Okta Authentication to an Existing Flask Web App](https://www.fullstackpython.com/blog/okta-user-auth-existing-flask-web-app.html)|[auth-existing-flask-app](./auth-existing-flask-app)|
 |[Fresh Tutorials on Full Stack Python](https://www.fullstackpython.com/blog/fresh-tutorials-october-2018.html)|No code in post.|
 |[How to Provision Ubuntu 18.04 LTS Linux Servers on DigitalOcean](https://www.fullstackpython.com/blog/provision-ubuntu-1804-linux-servers-digitalocean.html)|No code in post.|

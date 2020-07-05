@@ -7,6 +7,7 @@ Posts and associated code:
 
 |Post|Code Directory|
 |---|---|
+|[Quickly Use Bootstrap 4 in a Django Template with a CDN](https://www.fullstackpython.com/blog/bootstrap-4-django-template.html)|[bootstrap-4-django-template](./bootstrap-4-django-template)|
 |[Learning pandas by Exploring COVID-19 Data](https://www.fullstackpython.com/blog/learn-pandas-basic-commands-explore-covid-19-data.html)|[pandas-covid-19](./pandas-covid-19)|
 |[Adding Okta Authentication to an Existing Flask Web App](https://www.fullstackpython.com/blog/okta-user-auth-existing-flask-web-app.html)|[auth-existing-flask-app](./auth-existing-flask-app)|
 |[Fresh Tutorials on Full Stack Python](https://www.fullstackpython.com/blog/fresh-tutorials-october-2018.html)|No code in post.|

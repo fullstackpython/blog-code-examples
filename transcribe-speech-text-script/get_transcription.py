@@ -1,8 +1,6 @@
 import argparse
 import os
 import requests
-import sys
-import time
 
 
 API_URL = "https://api.assemblyai.com/v2/"

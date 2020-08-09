@@ -7,6 +7,7 @@ Posts and associated code:
 
 |Post|Code Directory|
 |---|---|
+|[How to Transcribe Speech Recordings into Text with Python](https://www.fullstackpython.com/blog/transcribe-recordings-speech-text-assemblyai.html)|[transcribe-speech-text-script](./transcribe-speech-text-script)|
 |[Tracking Daily User Data in Django with django-user-visit](https://www.fullstackpython.com/blog/track-daily-user-data-django-user-visit.html)|[track-daily-user-data-django-user-visit](./track-daily-user-data-django-user-visit)|
 |[Quickly Use Bootstrap 4 in a Django Template with a CDN](https://www.fullstackpython.com/blog/bootstrap-4-django-template.html)|[bootstrap-4-django-template](./bootstrap-4-django-template)|
 |[Learning pandas by Exploring COVID-19 Data](https://www.fullstackpython.com/blog/learn-pandas-basic-commands-explore-covid-19-data.html)|[pandas-covid-19](./pandas-covid-19)|

@@ -7,7 +7,7 @@ Posts and associated code:
 
 |Post|Code Directory|
 |---|---|
-|Higher Accuracy Twilio Voice Transcriptions with AssemblyAI & Python|[accurate-twilio-voice-call-recording-transcriptions-assemblyai](./accurate-twilio-voice-call-recording-transcriptions-assemblyai)|
+|[Higher Accuracy Twilio Voice Transcriptions with Python and Flask](https://www.fullstackpython.com/blog/accurate-twilio-voice-call-recording-transcriptions-assemblyai.html)|[accurate-twilio-voice-call-recording-transcriptions-assemblyai](./accurate-twilio-voice-call-recording-transcriptions-assemblyai)|
 |[Using Sentry to Handle Python Exceptions in Django Projects](https://www.fullstackpython.com/blog/sentry-handle-exceptions-django-projects.html)|[sentry-handle-exceptions-django-projects](./sentry-handle-exceptions-django-projects)|
 |[How to Transcribe Speech Recordings into Text with Python](https://www.fullstackpython.com/blog/transcribe-recordings-speech-text-assemblyai.html)|[transcribe-speech-text-script](./transcribe-speech-text-script)|
 |[Tracking Daily User Data in Django with django-user-visit](https://www.fullstackpython.com/blog/track-daily-user-data-django-user-visit.html)|[track-daily-user-data-django-user-visit](./track-daily-user-data-django-user-visit)|

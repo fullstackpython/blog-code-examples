@@ -47,7 +47,7 @@ def dial(phone_number):
             url=twiml_instructions_url,
     )
     print(call.sid)
-    return "dialing +{}".format(phone_number)
+    return "dialing +{}. call SID is: {}".format(phone_number, call.sid)
 
 
 @app.route("/get-recording-url/<call_sid>")

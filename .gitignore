@@ -99,3 +99,4 @@ monitor-django-apps/djmonitor/db.sqlite3
 flask-auth-okta/openidconnect_secrets.json
 flask-auth-okta/.env
 auth-existing-flask-app/completed/openidconnect_secrets.json
+django-accurate-twilio-voice-transcriptions/djtranscribe/.env

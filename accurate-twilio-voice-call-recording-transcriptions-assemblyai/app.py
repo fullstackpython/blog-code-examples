@@ -11,8 +11,6 @@ client = Client()
 
 BASE_URL = os.getenv("BASE_URL")
 twiml_instructions_url = "{}/record".format(BASE_URL)
-recording_callback_url = "{}/callback".format(BASE_URL)
-
 twilio_phone_number = os.getenv("TWILIO_PHONE_NUMBER")
 
 

@@ -6,8 +6,6 @@ from twilio.rest import Client
 from twilio.twiml.voice_response import VoiceResponse
 
 
-
-
 def dial(request, phone_number):
     """Dials an outbound phone call to the number in the URL. Just
     as a heads up you will never want to leave a URL like this exposed

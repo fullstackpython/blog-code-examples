@@ -21,6 +21,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
     transcription_id = args.transcription_id
     response_json = get_transcription(transcription_id)
+    print(response_json)
     if response_json['status'] == "completed":
         for word in response_json['words']:
             print(word['text'], end=" ")

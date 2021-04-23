@@ -7,6 +7,7 @@ Posts and associated code:
 
 |Post|Code Directory|
 |---|---|
+|[How to Monitor Python Functions on AWS Lambda with Sentry](https://www.fullstackpython.com/blog/monitor-python-functions-aws-lambda-sentry.html|[monitor-python-aws-lambda-sentry](./monitor-python-aws-lambda-sentry)|
 |[Using Django & AssemblyAI for More Accurate Twilio Call Transcriptions](https://www.fullstackpython.com/blog/django-accurate-twilio-voice-transcriptions.html)|[django-accurate-twilio-voice-transcriptions](./django-accurate-twilio-voice-transcriptions)|
 |[Higher Accuracy Twilio Voice Transcriptions with Python and Flask](https://www.fullstackpython.com/blog/accurate-twilio-voice-call-recording-transcriptions-assemblyai.html)|[accurate-twilio-voice-call-recording-transcriptions-assemblyai](./accurate-twilio-voice-call-recording-transcriptions-assemblyai)|
 |[Using Sentry to Handle Python Exceptions in Django Projects](https://www.fullstackpython.com/blog/sentry-handle-exceptions-django-projects.html)|[sentry-handle-exceptions-django-projects](./sentry-handle-exceptions-django-projects)|

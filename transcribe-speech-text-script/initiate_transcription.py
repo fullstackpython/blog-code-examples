@@ -18,7 +18,7 @@ def initiate_transcription(file_id):
     the results.
     """
     endpoint = "".join([API_URL, "transcript"])
-    json = {"audio_url": "".join([CDN_URL, "upload/{}".format(file_id)])}
+    json = {"audio_url": "".join([CDN_URL, "upload/{}".format(file_id)]), "content_safety": "true"}
     headers = {
         "authorization": os.getenv("ASSEMBLYAI_KEY"),
         "content-type": "application/json"
